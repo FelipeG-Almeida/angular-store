@@ -17,5 +17,9 @@ img {
 
 img:hover {
   transform: scale(1.05);
-  filter: grayscale(0.35) blur(1px);
+  filter: brightness(1) contrast(1.1);
+}
+
+img:not(:hover) {
+  filter: brightness(0.7) contrast(1);
 }

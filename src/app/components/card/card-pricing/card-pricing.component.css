@@ -20,3 +20,13 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
+
+.card-pricing__console {
+    display: flex;
+}
+
+span {
+    color: aqua;
+    font-weight: bold;
+    margin-right: 10px;
+}

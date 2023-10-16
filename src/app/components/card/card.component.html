@@ -1,5 +1,8 @@
 <a href="#">
-    <img src="assets/bt-5.jpg" alt="Capa Battlefield 5">
-    <app-card-label gameLabel="Exclusive"></app-card-label>
-    <app-card-pricing></app-card-pricing>
+  <img [src]="[gameCover]" alt="Capa Jogo" />
+  <app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
+  <app-card-pricing
+    gameType="{{ gameType }}"
+    gamePrice="{{ gamePrice }}"
+  ></app-card-pricing>
 </a>
